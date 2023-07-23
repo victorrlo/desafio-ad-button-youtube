@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #0f0f0f;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(77, 76, 76);
+    border-radius: 10px;
+    height: 160px;
+    width: 400px;
+    background-color: #0f0f0f;
+    
+}
+/* 
+.ad-center-icon img{
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 80%;
+} */
+
+.capa {
+    height: 80px;
+    width: 400px;
+    background-image: url(/src/img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-baixo {
+    position: relative;
+    max-height: 80px;
+    max-width: 402px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.container-titulo {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icone {
+    height:48px;
+    width: 48px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+span {
+    font-weight: 500;
+}
+
+.botao {
+    position: absolute;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
+    height: 36px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 0px;
+    background-color: #3ea6ff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.whole-div-link{ 
+    position: absolute;
+    width:100%;
+    height: 100%;
+    left: 0;
+  
+    z-index: 1;
+  
+    /* fixes overlap error in IE7/8, 
+       make sure you have an empty gif */
+    background-image: url('empty.gif');
+    /* background-color: red; */
+  }   
